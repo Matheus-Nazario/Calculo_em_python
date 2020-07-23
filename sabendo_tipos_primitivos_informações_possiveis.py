@@ -1,0 +1,20 @@
+dados = input("Qual é a informação que vc deseja descobrir o tipo primitivo e as informações possivéis, digite a baixo:\n")
+print("\n")
+print("\n")
+print("O tipo primitivo: ", type(dados))
+print("--------------------------------")
+print('A informação tem espaço?', dados.isspace())
+print("--------------------------------")
+print('A informação só tem número?', dados.isnumeric())
+print("--------------------------------")
+print('A informação só tem alfabeto?', dados.isalpha())
+print("--------------------------------")
+print('A informação tem alfabeto ou número?', dados.isalnum())
+print("--------------------------------")
+print('A informação está em letra maíuscula?', dados.isupper())
+print("--------------------------------")
+print('A informação está em letra minúscula?', dados.islower())
+print("--------------------------------")
+print('A informação está capitalizada?', dados.istitle()) #maiusculo e minusculo juntos.
+
+
